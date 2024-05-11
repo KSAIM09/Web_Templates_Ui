@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    
+}
+
+.buyPage{
+    width: 100%;
+    height: 200%;
+    
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 140vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.background-page img{
+    width: 48%;
+    height: 140vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    right: 0%;
+    z-index: 0;
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    position: absolute;
+    z-index: 5;
+}
+
+.nav > span{
+    font-size: 25px;
+    margin-left: 16px;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+.links > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* CART */
+
+.cart{
+    width: 42%;
+    height: 130vh;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    bottom: 0;
+    top: 5%;
+    left: 16%;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.watch-data{
+    width: 60%;
+    height: 70%;
+    left: 40%;
+    
+    position: relative;
+     
+}
+
+.heading{
+    width: 100%;
+    height: 45%;
+    margin-top: 80px ;
+}
+
+.heading h1{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.heading p {
+    margin-top: 30px;
+    color: grey;
+    padding-right: 22px;
+}
+
+.size button{
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.size span{
+    margin-right: 20px;
+}
+
+#data-price{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#data-info{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.btn button{
+    padding: 9px 18px;
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 2px;
+}
+
+.btn button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* BUTTONS */
+.color-change-button {
+    background-color: white; /* Default color */
+    border: 1px solid grey;  
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .color-change-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+
+
+.main-head-p{
+    display: flex;
+    flex-direction: row;
+        
+}
+.img-watch img{
+    width: 300px;
+    height: 430px;
+   
+    position: absolute;
+    z-index: 100;
+    right: 105%;
+    top: 10%;
+    object-fit: cover;
+
+}
+.data{
+    margin-left: 20px;
+}
+
+/* SAMLL-HEAD */
+
+.small-head{
+    text-align: center;
+    padding: 30px 60px;
+}
+.small-head h1{
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.small-head p{
+    font-size: 13px;
+    color: grey;
+}
+
+
+
+
+
+
+/* card */
+.card{
+    
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.watch-name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: gray ;
+}
+.watch-name h4{
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+#price{
+    font: 5px;
+    font-weight: 800;
+}
+.card img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border: 1px solid black;
+    
+}
+
+.collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}

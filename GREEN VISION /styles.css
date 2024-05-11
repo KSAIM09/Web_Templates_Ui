@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    background-color: #FDFDFD;
+    
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.left h2{
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.middle {
+    margin-top: 10px;
+    display: flex;
+    gap: 45px;
+}
+.middle a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.right button{
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* HEADRR */
+
+.header{
+    width: 100%;
+    height: auto;
+    
+    text-align: center;
+    padding: 35px 90px;
+}
+
+.header h1{
+    font-size: 70px;
+    padding: 0px 70px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.header p{
+    font-size: 18px;
+    padding: 0px 260px;
+    padding-top: 10px;
+    color: gray;
+}
+
+/* CARD-Collection */
+
+.card-collection{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ 
+    padding: 0px 50px;
+    position: relative;
+    
+}
+
+.box {
+    
+    width: 260px;
+    
+}
+
+.box1 {
+
+    background-image: url(https://img.freepik.com/free-photo/abstract-gradient-neon-lights_23-2149279092.jpg?t=st=1715430936~exp=1715434536~hmac=2540835666d948c44d56421d8ebd3547dad17bf7020a8ceff6ff0e2273d65ca2&w=360);
+    object-fit: cover;
+    object-position: bottom;
+    position: relative;
+    border-radius: 40px;
+    width: 300px;
+}
+
+.box1 p {
+    text-align: left;
+    position: absolute;
+    bottom: 6%;
+    font-size: 26px;
+    padding: 30px;
+    color: white !important;
+    
+}
+
+/* BOX--2 */
+
+.box2{
+    height: 320px;
+    width: 13%;
+    border-radius: 40px;
+    bottom: 0%;
+    margin-top: 178px;
+    background-color: #EEEEEE;
+    text-align: center;
+    position: relative;   
+}
+.box2 h2 {
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    font-size: 46px;
+}
+.box2 p{
+    color: gray;
+    position: absolute;
+    top: 55%;
+}
+
+/* BOX--3 */
+
+.box3{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+.img{
+    width: 349px;
+    height: 250px;
+    background-image: url(https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    filter: brightness(60%);
+
+}
+
+.img p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 20px 0px;
+    color:white;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    filter: brightness(100%);
+}
+
+.btn-box3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+    
+}
+
+.btn-box3 button{
+    padding: 16px 20px;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* BOX--4 */
+
+.box4{
+    height: 320px;
+    width: 13%;
+    border-radius: 40px;
+    bottom: 0%;
+    margin-top: 178px;
+    background-color: #C7D8B7;
+    text-align: center;
+    position: relative;   
+    
+}
+.box4 h2 {
+    position: absolute;
+    top: 35%;
+    left: 29%;
+    font-size: 46px;
+}
+.box4 p{
+    color: #4F554A;
+    position: absolute;
+    top: 55%;
+    padding: 0px 10px;
+}
+
+/* BOX--5 */
+.box5{
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1507537417841-81e85feb9bd2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 40px;
+}
