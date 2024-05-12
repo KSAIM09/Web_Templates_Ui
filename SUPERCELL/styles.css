@@ -1,0 +1,516 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    background-color: #F2F2F2;
+}
+
+nav {
+    position: fixed;
+    left: 10%;
+    background-color: black ;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 100;
+}
+
+nav img {
+    object-fit: cover;
+    width: 60px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.right a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #878787;
+}
+
+.right a:hover{
+    color: white;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.left span{
+    width: 70px;
+    border-left: 0.5px solid #878787;
+    color: #878787;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 20px;
+    height: 80px;
+    position: relative;
+}
+.left span i{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -60%);
+    margin: 0px 10px;
+    color: #878787;
+}
+.left img {
+    width: 30px;
+}
+
+.left button:nth-child(1){
+    padding: 5px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #878787;
+    font-weight: 600;
+    font-size: 12px;
+}
+.left button:hover{
+    background-color: white;
+    
+}
+
+/* HEADER */
+.header{
+    position: relative;
+    background-image: url(https://supercell.com/_next/static/media/frontpage_hero.bca9ba5a.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+    
+
+}
+
+/* MAIN */
+
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    width: 34%;
+    height: 500px;
+    
+   
+}
+.main h1{
+    font-size: 38px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+.main h3{
+    font-weight: 300;
+}
+
+.main button{
+    position: absolute;
+    bottom: 12%;
+    left: 37%;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    background-color: #1F7AEB;
+    color: white;
+    font-weight: 600;
+}
+.main button:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+/* CARD CONTAINER*/
+
+.card-container{
+    margin-top: 40px;
+    width: 100%;
+    height: 365vh;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.card-parent{
+    position: absolute;
+    left: 9.3%;
+    width: 82%;
+   height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    
+}
+
+.card{
+    gap: 20px;
+    width: 580px;
+    height: 560px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h3{
+    font-size: 16px;
+    color: #FB4AB6;
+}
+
+.card h2{
+    font-size: 20px;
+    font-weight: 500;
+  
+    margin-bottom: 10px
+}
+
+.card-parent button{
+    position: absolute;
+    bottom: 1%;
+    left: 44%;
+    padding: 15px 24px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #1F7AEB;
+    color: white;
+    font-weight: 600;
+
+    margin-top: 100px;
+}
+
+.card:nth-child(9){
+    height: 50px;
+}
+
+/* SECTION-2 */
+
+.img-container{
+    width: 100%;
+    height: 170vh;
+    background-color: #878787;
+    
+}
+
+.img-1{
+    
+    width: 100%;
+    height: 50%;
+    background-image: url(https://supercell.com/_next/static/media/bg_wmg_brawlstars.0fd2a716.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-1{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.content-1 p{
+    font-size: 20px;
+    line-height: 29px;
+}
+.content-1 button{
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: none !important;
+    font-weight: 600;
+    background-color: white;
+    margin-top: 30PX;
+}
+
+
+.img-char-1 {
+    background-image: url(https://supercell.com/_next/static/media/nita.76e85eac.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 570px;
+
+}
+
+/* IMG_2 */
+.img-char-2 {
+    background-image: url(https://supercell.com/_next/static/media/miniPekka.de55815b.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 570px;
+
+}
+
+.img-2{
+    
+    width: 100%;
+    height: 50%;
+    background-color:#1f7aeb;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.content-2 p{
+    font-size: 20px;
+    line-height: 29px;
+}
+.content-2 button{
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: none !important;
+    font-weight: 600;
+    background-color: white;
+    margin-top: 30PX;
+}
+
+/* SLIDER_CONTAINER */
+
+.slider-container{
+    width: 100%;
+    height: 160vh;
+    
+    position: relative;
+}
+
+.slider-main{
+    width: 80%;
+    height: 90%;
+    
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contentcard{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 40px;
+    width: 49%;
+    height: 70%;
+    
+}
+
+.contentcard img{
+    width: 100%;
+    height: 320px;
+
+}
+
+.contentcard h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card-data{
+    margin: 40px 55px;
+}
+
+.card-data h2{
+    font-size: 15px;
+    color: #1F7AEB;
+
+}
+.card-data p{
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white !important;
+}
+
+.main-footer{
+    width: 68%;
+    height: 55%;
+    
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.top{
+    width: 100%;
+    height: 30%;
+    /* background-color: #FB4AB6; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.middle{
+    width: 100%;
+    height: 10%;
+   border-bottom: 0.1px solid #878787;
+}
+.bottom{
+    width: 100%;
+    height: 60%;
+
+}
+
+/* TOP-1 */
+.top-1 p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.social{
+    font-size: 34px;
+    display: flex;
+    gap: 20px;
+}
+
+.social:hover{
+    cursor: pointer;
+}
+
+/* TOP_2 BTN */
+
+.top-2{
+    width: 35%;
+    position: relative;
+    
+}
+
+.top-2 button{
+    position: absolute;
+    padding: 24px 85px;
+    
+}
+
+.btn1{
+    right: 50%;
+    background-image: url(https://supercell.com/_next/static/media/appstore.c44572b2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 68px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: black;
+}
+.btn2{
+    right: 0%;
+    background-image: url(https://supercell.com/_next/static/media/googleplay.4ced544f.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 68px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* BOTTOM-1 */
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.bottom-1{
+    display: flex;
+    gap: 19px;
+}
+.bottom-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+.bottom-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+}
+
+.bottom-2 ul{
+    list-style: none;
+    font-size: 13px;
+    line-height: 24px;
+    color: #878787;
+}
+
+.bottom-2 img{
+    width: 60px;
+    height: 55px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    
+}
