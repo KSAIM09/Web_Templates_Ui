@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgb(175,255,249);
+    background: linear-gradient(90deg, rgba(175,255,249,1) 0%, rgba(255,217,201,1) 100%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    align-items: center;
+}
+.left{
+    margin-left: 50px;
+}
+.left h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.middle{
+    display: flex;
+    gap: 80px;
+}
+
+.middle a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+.right{
+    margin-right: 50px;
+}
+.right button{
+    padding: 12px 40px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #32B260;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0px 170px;
+}
+
+.heading-l{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.heading-l button{
+    padding: 16px 40px;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background-color: #32B260;
+    color: white;
+}
+.main h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.main p{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
+.img-r img{
+    width: 550px;
+    height: 450px;
+    
+}
+
+.cards{
+    margin-top: 40px;
+    position: absolute;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    width: 50%;
+    align-items: center;
+}
+
+.card{
+    width: 90px;
+    height: 70px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card span{
+    font-size: 60px;
+    text-align: center;
+
+}
