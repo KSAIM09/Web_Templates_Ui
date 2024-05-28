@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="left">
+                <div class="head">
+                    <h2 style="color: #0076FE; font-size: 32px; margin-bottom: 50px;">Mortage Calculators</h2>
+                </div>
+                <div class="cal">
+                    <form>
+                        <div>
+                            <label for="price">Property Price(RM)</label>
+                            <input type="text" name="price" id="price" placeholder="1,00,00,000">
+                        </div>
+
+                        <div>
+                            <label for="downpayment">Down Payment</label>
+                            <input type="text" placeholder="85,00,000">
+                        </div>
+                        <div>
+                            <label for="loanterm">Loan Term</label>
+                            <input type="text" placeholder="30 Years">
+                        </div>
+                        <div>
+                            <label for="Interest Rate">Interest Rate %</label>
+                            <input type="text" placeholder="5%">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+                <div class="r-top">
+                    <div class="r-top-1">
+                        <div id="top">
+                            <div>
+                                <span style="color: white; margin-right: 10px;"><i class="ri-circle-fill"></i></span> <p style="color: rgb(223, 223, 223);">Total Amount Financed (rm)</p>
+                            </div>
+                            <div>
+                                <h3 style="font-weight: 300 ;font-size: 32px;">1,00,00,000</h3><span style="margin-left: 10px;">(44.5%)</span>
+                            </div>
+                            
+                        </div>
+                        <span style="font-size: 60px; position: absolute; right: 16%;"><i class="ri-pie-chart-2-fill"></i></span>
+                        
+                    </div>
+                    <div class="r-top-2">
+                        <div id="top">
+                            <div>
+                                <span style="color: #0076FE; margin-right: 10px;"><i class="ri-circle-fill"></i></span><p style="color: rgb(224, 224, 224);">Total Amount Financed (rm)</p>
+                            </div>
+                            <div>
+                                <h3 style="font-weight: 300 ;font-size: 32px;">86,00,000</h3><span style="margin-left: 10px;">(34.5%)</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="r-bottom">
+                    <div>
+                        <p>Your Monthly Payment</p>
+                        <h1 style="font-size: 48px;">RM 14,165/mo</h1>
+                    </div>
+
+                    <button>How Much Can I Borrow?</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
