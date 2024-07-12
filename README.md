@@ -1,23 +1,18 @@
 # Mini_Project_SHERA
 Multiple Websites I've created with my SHERA Group.
+# There Are 30 Mini Projects and 4 Major Projects 
 
-# Project-1 
+
+
+# Major Project-1 
 SUPERLAP
 
-# Project-2
+# Major Project-2
 EXPANDABLE
 
-# Project-3
-WATCH-PAGE
-
-# Project-4
-GREEN VISION
-
-# Project-5
+# Major Project-3
 SUPERCELL
 
-# Project-6
-AGENCY-PAGE
+# Major Project -4
+HYPERFLOW
 
-# Project-7
-Crypto-PAGE
