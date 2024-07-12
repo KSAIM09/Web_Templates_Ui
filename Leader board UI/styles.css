@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    color: white;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: #BEA51E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #2A323C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.548) 0px 8px 16px -8px;
+}
+/* HEADING */
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.heading img{
+    width: 300px;
+    height: 70px;
+
+}
+.heading h1{
+    font-size: 52px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+.divider{
+    width: 100%;
+    height: 75%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    padding: 0px 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.right{
+    padding: 0px 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.head h1{
+    font-weight: 300;
+}
+.head{
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.head img{
+    
+    width: 100px;
+    height: 30px;
+    
+}
+
+/* columns */
+.columns{
+    font-size: 13px;
+    font-weight: 600;
+    
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+.left-col{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.right-col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* playerOdd */
+.playerOdd{
+    font-size: 13px;
+    font-weight: 600;
+   
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playerOdd .left-col{
+    display: flex;
+    padding: 0px 10px;
+    gap: 70px;
+}
+.playerOdd .right-col{
+    display: flex;
+    padding: 0px 35px;
+    gap: 50px;
+}
+
+#odd{
+    background-color: #25292c;
+    height: 60px;
+    width: 530px;
+    border-radius: 10px;
+}
+
+#even{
+    background-color: transparent;
+    height: 60px;
+    width: 530px;
+    border-radius: 10px;
+}

@@ -1,0 +1,184 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.sidebar {
+    width: 80px;
+    background-color: #ffffff;
+    border-right: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+
+.menu-item.active a {
+    color: #007bff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.getting-started {
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.getting-started h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.getting-started h2 span {
+    font-size: 14px;
+    color: #666;
+}
+
+.steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step.completed .check {
+    color: green;
+}
+
+.check {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.step-info {
+    flex-grow: 1;
+}
+
+.step-info h3 {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.step-info p {
+    font-size: 14px;
+    margin: 0;
+    color: #666;
+}
+
+button {
+    width: 130px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(228, 228, 228);
+    margin-right: 20px;   
+    border-radius: 10px;
+}
+
+.content{
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 0px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+}
+.content h2{
+    font-size: 18px;
+}
+.content span{
+    font-weight: 600;
+    color: #666;
+}

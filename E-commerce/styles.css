@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "Golos Text", sans-serif;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #29426E;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0px 20px;
+}
+nav input{
+    border-radius: 40px;
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(214, 214, 214);
+    outline: none;
+    font-size: 16px;
+}
+
+.nav-left{
+    position: relative;
+}
+.nav-left span{
+    position: absolute;
+    left: 90%;
+    top: 22%;
+    font-size: 20px;
+}
+
+.nav-mid{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-mid img{
+    width: 200px;
+}
+
+
+.nav-right{
+    display: flex;
+    width: 470px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-opt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.nav-opt span{
+    font-size: 38px;
+
+}
+
+
+/* -----------------NAV--------2------------------------ */
+
+.nav-2{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.nav-2-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-2-left a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.nav-2-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+
+.nav-2-right button{
+    padding: 13px 40px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+}
+
+/* page-1 */
+.page-1
+{
+    width: 100%;
+    background: rgb(230,230,230);
+background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 100%);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.page-1-left{
+    width: 950px;
+    height: 580px;
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/Untitled_design_25.png?v=1709571908&width=2000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+
+}
+
+.heading-con{
+    font-size: 33px;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    
+}
+.heading-con button{
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+    background-color: #CBDE5A;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+
+.page-1-right{
+    width: 510px;
+    height: 580px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-head-con-1{
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/Untitled_design_23_1.png?v=1709571305);
+    width: 100%;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.char-head{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.char-head button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+}
+
+.right-head-con-2{
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/personalised-banner.png?v=1709570662);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    color: black;
+}
+
+/* ads */
+
+.ads{
+    padding: 0px 20px;
+    color: black;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ads-con{
+    display: flex;
+    flex-direction: row;
+    width: 290px;
+    gap: 20px;
+    align-items: center;
+}
+.ads-icon span{
+    font-size: 51px;
+}
+.ads-head h2{
+    font-size: 20px;
+}
+
+/* three-cards */
+.three-cards{
+    width: 100%;
+    height: 580px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three-card-con{
+    width: 470px;
+    height: 520px;
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/Image_courtesy_of_Bedruthan_Hotel_Spa_1.png?v=1709638281&width=535);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+.three-card-con-2{
+    width: 470px;
+    height: 520px;
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/coloured-deckchairs_1.png?v=1713871228&width=535);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+.three-card-con-3{
+    width: 470px;
+    height: 520px;
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/buy-fabrics.png?v=1709636641&width=535);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.three-cards-head{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.three-cards-head button{
+    width: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+}
+
+.three-cards-head h3{
+    font-size: 32px;
+}
+
+.three-cards-head p {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    width: 180px;
+    font-weight: 600;
+}
+
+/* mid-heading */
+.mid-heading{
+
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+}
+
+.mid-heading h2{
+    font-size: 46px;
+    color: black;
+    font-weight: 500;
+}
+
+.mid-heading button{
+    padding: 10px 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #29426E;
+}
+
+/* cards-container */
+.cards-container{
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
+    height: 500px;
+    color: black;
+}
+
+.card{
+    width: 330px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card img{
+    width: 300px;
+    border: 1px solid rgb(214, 214, 214);
+}
+.card p{
+    color: grey;
+}
+.card h3{
+    font-weight: 500;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+
+
+/* two-cards-con */
+.two-cards-con{
+    width: 100%;
+    height: 800px;
+ 
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-photo{
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/stripes.png?v=1709634527&width=940);
+    background-size: cover;
+    width: 720px;
+    height: 750px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+.content-photo{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+.content-photo h1{
+    font-size: 42px;
+    font-weight: 500;
+}
+.right-photo{
+    background-image: url(https://deckchairs.co.uk/cdn/shop/files/dining-chairs.png?v=1709634584&width=940);
+    background-size: cover;
+
+    width: 720px;
+    height: 750px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.mail{
+    width: 100%;
+    height: 100px;
+    background-color: #012C3C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+}
+.mail-left{
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #CBDE5A;
+    padding-right: 20px;
+}
+
+.content-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 30px;
+    align-items: center;
+}
+.content-news input{
+    width: 400px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}

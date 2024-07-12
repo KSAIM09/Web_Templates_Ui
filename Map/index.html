@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="location-input">
+                <input type="text" value="Current Location" readonly>
+            </div>
+            <div class="location-input">
+                <input type="text" value="Pushpa Nagar Chauraha" readonly>
+            </div>
+        </div>
+        <div class="map">
+            <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7331.332645495409!2d77.42490469552718!3d23.25522642324419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c69d7cf48696f%3A0xddbc57014db35da2!2sAshoka%20Garden%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1720765141475!5m2!1sen!2sin" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="route">
+                <div class="start-point"></div>
+                <div class="route-line"></div>
+                <div class="end-point"></div>
+            </div>
+        </div>
+        <div class="info-bar">
+            <div class="distance-time">
+                <h1>10.7 KM</h1>
+                <p>6.3 minutes (Arrive at 21:23)</p>
+            </div>
+            <div class="transport-options">
+                <div class="option"><span class="icon">🚶‍♂️</span> 15.3M</div>
+                <div class="option"><span class="icon">🚲</span> 5.2M</div>
+                <div class="option"><span class="icon">🚌</span> 10.3M</div>
+                <div class="option"><span class="icon">🚗</span> 4.5M</div>
+            </div>
+        </div>
+        <div class="navigate-button">
+            <button>Navigate</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

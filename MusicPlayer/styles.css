@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* COLORs----- #4949495e  */
+/* rgba(180, 180, 180, 0.582); */
+/* NAVBAAARRR STYLESS */
+.nav{
+    margin-top: 10px;
+    width: 50%;
+    height: 45px;
+    background-color: rgba(180, 180, 180, 0.582);
+    border-radius: 40px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+}
+
+/* ICON NAV */
+.nav1 span{
+    padding: 8px;
+    background-color: #4949495e;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+/* NMAV SEARCH BAR */
+.nav2{
+    width: 400px;
+    height: 25px;
+    background-color: #4949495e;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+/* HERo SECTION */
+.hero{
+    width: 90%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+/* LEFT PART */
+.left{
+    border: 1px solid white;
+    width: 3.5%;
+    height: 40%;
+    color: white;
+    position: absolute;
+    top: 28%;
+    border-radius: 40px;
+    background-color: rgba(131, 131, 131, 0.747);
+    left: 1%;
+}
+.left-con{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    gap: 6px;
+}
+
+.left-con span{
+    padding: 8px;
+    border-radius: 50%;
+}
+
+/* RIGHT PART */
+
+
+
+.right{
+    border: 1px solid white;
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    border-radius: 40px;
+    background-color: rgba(189, 189, 189, 0.37);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    backdrop-filter: blur(5px);
+
+}
+.right-part1{
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card-con{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(230, 230, 230, 0.39);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 23px;
+    box-shadow: rgba(0, 0, 0, 0.116) 0px 1px 4px;
+    overflow: hidden;
+}
+
+
+
+.card{
+    width: 190px;
+    height: 220px;
+    border: 1px solid rgba(248, 248, 248, 0.623);
+    border-radius: 20px;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.song-name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.card img{
+    width: 167px;
+    height: 160px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+.card p{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+.right-part2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.circle-card-con{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0px 20px;
+}
+
+.circle-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.bottom-right-part{
+    width: 350px;
+    height: 30%;
+    margin-right: 20px;
+}
+
+.song-card{
+    padding: 0px 10px;
+    border: none;
+    background-color: rgba(155, 155, 155, 0.726);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.song-card-left{
+    display: flex;
+    gap: 6px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.song-card-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.song-card-right{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+.icon-play{
+    padding: 5px 8px;
+    background-color: #e2e2e28e;
+    border-radius: 8px;
+}
+.icon-heart{
+    padding: 5px 8px;
+    background-color: #e2e2e28e;
+    border-radius: 8px;
+}
+
+/* PLAYERRRR */
+.player{
+    width: 40%;
+    height: 55px;
+    background-color: rgba(180, 180, 180, 0.582);
+    margin-bottom: 15px;
+    border-radius: 40px;
+    border: 0.5px solid white;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.music-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.music-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 52%;
+    height: 38px;
+    background-color: #4949495e;
+    border-radius: 40px;
+    padding: 5px 6px;
+
+}
+.info-l{
+    display: flex;
+    gap: 8px;
+}
+
+.info-r{
+    display: flex;
+    gap: 14px;
+    font-size: 16px;
+}
+.info-l img{
+    width: 28px;
+    height: 28px;
+    background-image: url(https://i1.sndcdn.com/artworks-000239500152-p68001-t500x500.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.info-head{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.music-extra{
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+}

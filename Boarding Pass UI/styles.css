@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: #F89003;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 60%;
+    height: 45%;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px dotted #F89003;
+}
+.qr{
+    width: 70%;
+    height: 55%;
+    background-image: url(data:image/png;base64,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);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* background-color: aqua; */
+}
+
+#dot{
+    
+    width: 240px;
+    height: 1px;
+    /* padding: 1px; */
+    border-bottom: 2px dotted #00023D;
+    /* position: relative; */
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 20px;
+}
+.head{
+    font-size: 10px;
+    color: #00023D;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add h1{
+    color: #00023D;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+#plain{
+position: absolute;
+top: 37.8%;
+left: 50%;
+font-size: 34px;
+color: #00023D;
+}
+
+.add p{
+    color: rgb(156, 156, 156);
+    font-size: 12px;
+    font-weight:600;
+}
+.bottom{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+padding: 20px;
+font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.con h4{
+    color: #00023D;
+}
+.con p{
+    color: rgb(156, 156, 156);;
+}
+.right{
+    height: 100%;
+    color: white;
+    font-size: 9px;
+    width: 10%;
+    background-color: #00023D;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 200px;
+    padding: 20px;
+}
+
+.right div{
+    transform: rotate(-90deg);
+
+}
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Monitoring Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <div class="time-date">
+                <div class="time">10:32 PM</div>
+                <div class="date">17 July, 2021</div>
+            </div>
+            <div class="weather">
+                <div class="weather-item">
+                    <div class="weather-icon">🌡️</div>
+                    <div class="weather-text">26°C<br>Cloudy & Windy</div>
+                </div>
+                <div class="weather-item">
+                    <div class="weather-icon">🌧️</div>
+                    <div class="weather-text">39%<br>Precipitation %</div>
+                </div>
+                <div class="weather-item">
+                    <div class="weather-icon">💧</div>
+                    <div class="weather-text">77%<br>Humidity %</div>
+                </div>
+                <div class="weather-item">
+                    <div class="weather-icon">☀️</div>
+                    <div class="weather-text">7<br>UV index</div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="notification">🔔</div>
+                <div class="profile-info">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D" alt="Profile Picture">
+                    <div>Anelia Wiston + 2 more</div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs">
+            <button class="tab active">Living Room</button>
+            <button class="tab">Kitchen</button>
+            <button class="tab">Living Room 2</button>
+            <button class="tab">Studio Room</button>
+        </div>
+        <div class="main-content">
+            <div class="controls">
+                <div class="control-item">
+                    <div class="control-header">
+                        <div>TV</div>
+                        <div>🔍</div>
+                    </div>
+                    <div class="control-body">
+                        <button class="status off" onclick="toggleStatus(this)">Off</button>
+                        <div class="control-text">no channel selected</div>
+                        <div class="adjust">Adjust ☰</div>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="control-header">
+                        <div>Bulb 1</div>
+                        <div>🔍</div>
+                    </div>
+                    <div class="control-body">
+                        <button class="status on" onclick="toggleStatus(this)">On</button>
+                        <div class="control-text">#FFFFFF 380 nits</div>
+                        <div class="adjust">Adjust ☰</div>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="control-header">
+                        <div>Bulb 2</div>
+                        <div>🔍</div>
+                    </div>
+                    <div class="control-body">
+                        <button class="status off" onclick="toggleStatus(this)">Off</button>
+                        <div class="control-text">single color 300 nits</div>
+                        <div class="adjust">Adjust ☰</div>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="control-header">
+                        <div>AC</div>
+                        <div>🔍</div>
+                    </div>
+                    <div class="control-body">
+                        <button class="status on" onclick="toggleStatus(this)">On</button>
+                        <div class="control-text">cool mode 16°C</div>
+                        <div class="adjust">Adjust ☰</div>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="control-header">
+                        <div>Speaker</div>
+                        <div>🔍</div>
+                    </div>
+                    <div class="control-body">
+                        <button class="status off" onclick="toggleStatus(this)">Off</button>
+                        <div class="control-text">nothing playing</div>
+                        <div class="adjust">YouTube Music</div>
+                    </div>
+                </div>
+                <div class="control-item add">
+                    <div>+</div>
+                </div>
+            </div>
+            <div class="quick-cards">
+                <div class="card">
+                    <div class="card-title">Google Assistant</div>
+                    <div class="card-content">Say 'hey google'</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Shopping List</div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Breads</li>
+                            <li>Dog hair cleaner</li>
+                            <li>Toothpaste white one</li>
+                        </ul>
+                        <button class="btn">Add item</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Connected to</div>
+                    <div class="card-content">Dolphin-7962</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Energy Consumption</div>
+                    <div class="card-content">312 kWh</div>
+                    <button class="btn">Analyse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

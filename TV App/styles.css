@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    color: white;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color:#003446;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 80%;
+    height: 90%;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7A7LTXS4YscdpqBGYB-xJ3Q4dtYz1m1t7BT021pXNFUdO-oSKJ_YxoBWp2cA-ZX5YchNu57DVZmovgw4DTmqiawKRQeiK1dq_izX8e_fLwx2ChndGTFpDdQZtmYzmOtFpnuzrGAyiQH0a/w1920-h1080-c/daenerys-targaryen-dragon-game-of-thrones-uhdpaper.com-4K-69.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.overlay{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(1px);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.side-nav{
+    width: 7%;
+    border-right: 1px solid rgba(218, 218, 218, 0.363);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.top-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 7px;
+    margin-top: 150px;
+    padding: 0px 20px;
+    height: 300px;
+
+}
+
+.extra{
+    display: flex;
+    align-items: center;
+}
+.extra p{
+    padding: 5px 10px;
+    text-align: center;
+    width: 160px;
+    font-size: 14px;
+    background-color: #02141aaf;
+    color: rgb(209, 209, 209);
+}
+
+.head h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
+}
+.para p{
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
+}
+.date{
+    display: flex;
+    gap: 20px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
+    align-items: center;
+}
+
+.date p{
+    font-size: 18px;
+    font-weight: 600;
+}
+#stars{
+    color: #2AB0D8;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.btn button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2AB0D8;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.cards-con{
+    width: 100%;
+    height: 29%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 20px;
+    border-bottom-right-radius: 20px;
+}
+.card-head h1{
+    font-weight: 300;
+}
+
+.card-grp{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card{
+    border-radius: 10px;
+    width: 300px;
+    height: 140px;
+    position: relative;
+}
+.card p{
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    padding: 4px 10px;
+    text-align: center;
+    width: 80px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: #02141a62;
+    color: rgb(209, 209, 209);
+}
+
+#card1{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/9074a6bc13c832b4b25ca3a19759023931e8828ab3c9e21011f37fb278d01e58._UR1920,1080_SX360_FMwebp_.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card2{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/cc6fbdbf67a6003d450bb6925b6413cec203bb307d6b52c20618e2867bf2ebd6._UR1920,1080_SX360_FMwebp_.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card3{
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/43e1b09fe7fbf1d60d872aed217dd6eaee8aab4240c0e4609ed54a09f70eef9e._UR1920,1080_SX480_FMwebp_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#card4{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/8c49ebd1a9e62dd79dc155a7e478e84adf8ae60ce7f5d7042dde98ce8d6ea924._UR1920,1080_SX720_FMwebp_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#card5{
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/8d6569ebf585851f9f6ad675bb0d18e429c51cc360943a7e4be8e3e90e2afd31._UR1920,1080_SX720_FMwebp_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

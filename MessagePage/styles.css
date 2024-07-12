@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica;
+    color: white;
+}
+
+/* COLOR - rgba(63, 63, 63, 0.281) */
+/* rgba(211, 211, 211, 0.384) */
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* NAV */
+.nav{
+    width: 3.5%;
+    height: 45%;
+    background-color: rgba(63, 63, 63, 0.281);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    gap: 15px;
+    border-radius: 40px;
+    justify-content: space-around;
+    font-weight: 100;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+/* CONATINER -------------- 1 */
+.container-1{
+    width: 30%;
+    height: 90%;
+    background-color: rgba(63, 63, 63, 0.281);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+.left-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.top-icon{
+    width: 35px ;
+    height: 35px;
+    background-color: rgba(211, 211, 211, 0.384);
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.right-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Middle-chats */
+.middle-chats{
+    width: 100%;
+    height: 82%;
+    padding: 10px 20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chat1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.chat1 div{
+    display: flex;
+    align-items: end;
+    gap: 12px;
+}
+
+.chat1 div p{
+    padding: 13px;
+    background-color: rgba(211, 211, 211, 0.384);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.chat1 > p{
+    font-size: 11px;
+    margin-top: 28px;
+}
+
+/* CHAT 2 */
+
+.chat2{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.chat2 div{
+    display: flex;
+    align-items: end;
+    gap: 12px;
+}
+
+
+
+.chat2 div p{
+    padding: 13px;
+    background-color: #346BEA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.chat2 > p{
+    font-size: 11px;
+    margin-top: 60px;
+}
+
+
+
+.datemid{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(231, 231, 231);
+    margin-bottom: 10px;
+}
+
+
+/* MEssage bar */
+
+.message-bar{
+    width: 100%;
+    height: 9%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-con{
+    width: 90%;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.bar-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bar-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+
+
+/* CONATINER-------------2 */
+.container-2{
+    width: 25%;
+    height: 90%;
+    background-color: rgba(63, 63, 63, 0.281);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+
+.con2-top-bar{
+    width: 100%;
+    height: 9%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.top-bar-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.top-bar-right{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar-right span{
+    width: 35px ;
+    height: 35px;
+    background-color: rgba(211, 211, 211, 0.384);
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CARDS */
+
+.top-card-con{
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0px 20px;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.horizontal-cards-con{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    gap: 9px;
+}
+
+.hori-cards{
+    gap: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.hori-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hori-card-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.hori-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* NEW mESSS */
+
+.new-message-con{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-mess{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(148, 148, 148);
+    position: absolute;
+    bottom: 3%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
