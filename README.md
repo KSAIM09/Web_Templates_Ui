@@ -1,6 +1,6 @@
 # Mini_Project_SHERA
 Multiple Websites I've created with my SHERA Group.
-# There Are 30 Mini Projects and 4 Major Projects 
+# There Are 30 Mini Projects and 5 Major Projects 
 
 
 
