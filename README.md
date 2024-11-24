@@ -4,17 +4,17 @@ Multiple Websites I've created with my SHERA Group.
 
 
 
-# Major Project-1 
+# Web-1 
 SUPERLAP
 
-# Major Project-2
+# Web-2
 EXPANDABLE
 
-# Major Project-3
+# Web-3
 SUPERCELL
 
-# Major Project -4
+# Web -4
 HYPERFLOW
 
-# Majot Project -5
+# Web -5
 Food App clone
